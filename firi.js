@@ -17,10 +17,6 @@ const balanceSchema = z.object({
 });
 
 async function getBalances() {
-	console.log('asd', {
-		'firi-access-key': apiKey,
-		...packageUserAgent,
-	});
 	const response = await got(`${baseApiUrl}/v2/balances`, {
 		headers: {
 			'firi-access-key': apiKey,
