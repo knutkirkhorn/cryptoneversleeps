@@ -1,0 +1,43 @@
+{
+	"private": true,
+	"name": "cryptoneversleeps",
+	"version": "1.0.0",
+	"description": "DCA crypto bot for buying in the weekend",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"lint": "eslint ."
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/knutkirkhorn/cryptoneversleeps.git"
+	},
+	"keywords": [
+		"crypto",
+		"bot",
+		"dca",
+		"weekend"
+	],
+	"author": "Knut Kirkhorn",
+	"type": "module",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/knutkirkhorn/cryptoneversleeps/issues"
+	},
+	"homepage": "https://github.com/knutkirkhorn/cryptoneversleeps#readme",
+	"dependencies": {
+		"bignumber.js": "^9.1.2",
+		"discord-webhook-wrapper": "^1.0.2",
+		"discord.js": "^14.14.1",
+		"dotenv": "^16.3.1",
+		"got": "^14.0.0",
+		"package-user-agent": "^2.0.0",
+		"zod": "^3.22.4"
+	},
+	"devDependencies": {
+		"eslint": "^8.56.0",
+		"eslint-config-airbnb-base": "^15.0.0",
+		"eslint-plugin-import": "^2.29.1",
+		"eslint-plugin-unicorn": "^50.0.1"
+	}
+}

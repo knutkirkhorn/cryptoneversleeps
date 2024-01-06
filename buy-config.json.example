@@ -1,0 +1,10 @@
+[
+    {
+        "market": "BTCNOK",
+        "price_nok": 25
+    },
+    {
+        "market": "ETHNOK",
+        "price_nok": 75
+    }
+]
