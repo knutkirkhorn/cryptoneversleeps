@@ -4,6 +4,10 @@
 
 It buys crypto of your desire using the [Firi API](https://developers.firi.com) and notifies on Discord when buys are made.
 
+<div align="center">
+	<img src="./media/image.png" alt="Cryptoneversleeps Discord notification example">
+</div>
+
 ## Install
 
 ### Build the docker image
