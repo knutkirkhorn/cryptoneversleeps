@@ -1,6 +1,6 @@
 # cryptoneversleeps
 
-> DCA crypto bot for buying in the weekend
+> DCA crypto bot that only buys on weekends
 
 It buys crypto of your desire using the [Firi API](https://developers.firi.com) and notifies on Discord when buys are made.
 
