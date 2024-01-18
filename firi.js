@@ -1,7 +1,7 @@
-import got from 'got';
-import {z} from 'zod';
 import BigNumber from 'bignumber.js';
+import got from 'got';
 import getPackageUserAgent from 'package-user-agent';
+import {z} from 'zod';
 import config from './config.js';
 import {sendDiscordErrorMessage} from './discord-messaging.js';
 
