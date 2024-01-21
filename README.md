@@ -20,8 +20,11 @@ docker build -t cryptoneversleeps .
 
 ```bash
 crontab -e
+```
 
-# Add the following line to the crontab:
+Add the following line to the crontab:
+
+```sh
 37 13 * * 0,6 docker run --rm cryptoneversleeps
 ```
 
