@@ -17,13 +17,18 @@ export default defineConfig([
 		},
 
 		rules: {
+			// Disable rules
 			'no-console': 'off',
 			'no-plusplus': 'off',
 			'no-await-in-loop': 'off',
 			'no-restricted-syntax': 'off',
-			'no-param-reassign': ['error'],
-			'consistent-return': ['error'],
-			'no-else-return': ['error'],
+
+			// Enable rules
+			'no-param-reassign': 'error',
+			'consistent-return': 'error',
+			'no-else-return': 'error',
+			'no-var': 'error',
+			'prefer-const': 'error',
 		},
 	},
 ]);
